@@ -239,6 +239,7 @@ Package: libignition-physics5-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-physics5-core-dev (= ${binary:Version}),
+         libignition-physics5-bullet-dev (= ${binary:Version}),
          libignition-physics5-dartsim-dev (= ${binary:Version}),
          libignition-physics5-heightmap-dev (= ${binary:Version}),
          libignition-physics5-mesh-dev (= ${binary:Version}),
@@ -246,7 +247,6 @@ Depends: libignition-physics5-core-dev (= ${binary:Version}),
          libignition-physics5-tpe-dev (= ${binary:Version}),
          libignition-physics5-tpelib-dev (= ${binary:Version}),
          ${misc:Depends}
-# Bullet not added on purpose to avoid adding a new dependency to a stable release
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - Metapackage
   Ignition Physics is a component in the ignition framework, a set of libraries
