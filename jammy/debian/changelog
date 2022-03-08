@@ -1,3 +1,9 @@
+ignition-physics5 (5.1.0+osrf-2~jammy) jammy; urgency=medium
+
+  * ignition-physics5 5.1.0+osrf-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 08 Mar 2022 19:20:48 +0100
+
 ignition-physics5 (5.1.0+osrf-1~jammy) jammy; urgency=medium
 
   * ignition-physics5 5.1.0+osrf-1 release
