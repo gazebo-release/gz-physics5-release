@@ -1,9 +1,5 @@
 #!/usr/bin/make -f
 
-.PHONY: override_dh_auto_configure \
-        override_dh_install \
-        override_dh_auto_test
-
 %:
 	dh $@
 
