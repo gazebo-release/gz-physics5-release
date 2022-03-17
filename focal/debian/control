@@ -215,7 +215,7 @@ Depends: libignition-physics5-core-dev (= ${binary:Version}),
          libignition-math6-eigen3-dev,
          libignition-plugin-dev,
          libbullet-dev,
-         libsdformat11-dev,
+         libsdformat12-dev,
          libignition-physics5-bullet (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
