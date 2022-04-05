@@ -14,15 +14,17 @@ Build-Depends: cmake,
                libignition-plugin-dev (>= 1.1.0),
                libignition-utils1-dev,
                libignition-utils1-cli-dev,
-               libdart6-dev (<< 6.10.0) | libdart-dev (<< 6.10.0),
-               libdart6-collision-bullet-dev (<< 6.10.0) | libdart-collision-bullet-dev (<< 6.10.0),
-               libdart6-collision-ode-dev (<< 6.10.0) | libdart-collision-ode-dev (<< 6.10.0),
-               libdart6-external-ikfast-dev (<< 6.10.0) | libdart-external-ikfast-dev (<< 6.10.0),
-               libdart6-external-odelcpsolver-dev (<< 6.10.0) | libdart-external-odelcpsolver-dev (<< 6.10.0),
-               libdart6-utils-dev (<< 6.10.0) | libdart-utils-dev (<< 6.10.0),
-               libdart6-utils-urdf-dev (<< 6.10.0) | libdart-utils-urdf-dev (<< 6.10.0),
+# DART from Ubuntu repositories, 6.12.1 + OSRF patches
+               libdart-dev (>= 6.12.1+dfsg4),
+               libdart-collision-bullet-dev (>= 6.12.1+dfsg4),
+               libdart-collision-ode-dev (>= 6.12.1+dfsg4),
+               libdart-external-convhull-3d-dev (>= 6.12.1+dfsg4),
+               libdart-external-ikfast-dev (>= 6.12.1+dfsg4),
+               libdart-external-odelcpsolver-dev (>= 6.12.1+dfsg4),
+               libdart-utils-dev (>= 6.12.1+dfsg4),
+               libdart-utils-urdf-dev (>= 6.12.1+dfsg4),
                libsdformat12-dev
-Vcs-Browser: https://github.com/ignitionrobotics/ignition-physics
+Vcs-Browser: https://github.com/ignition-release/ign-physics5-release
 Vcs-Git: https://github.com/ignition-release/ign-physics5-release
 Standards-Version: 4.5.1
 Homepage: http://ignitionrobotics.org/
@@ -93,6 +95,8 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-physics5-5 (<= 5.8.1+ds-2)
+Replaces: libignition-physics5-5 (<= 5.8.1+ds-2)
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - Shared library
  Ignition Physics is a component in the ignition framework, a set of libraries
@@ -111,14 +115,16 @@ Depends: libignition-physics5-core-dev (= ${binary:Version}),
          libignition-common4-graphics-dev,
          libignition-math6-dev,
          libignition-math6-eigen3-dev,
+         libignition-common4-dev,
          libignition-plugin-dev (>= 1.1.0),
-         libdart6-dev (<< 6.10.0) | libdart-dev (<< 6.10.0),
-         libdart6-collision-ode-dev (<< 6.10.0) | libdart-collision-ode-dev (<< 6.10.0),
-         libdart6-utils-dev (<< 6.10.0) | libdart-utils-dev (<< 6.10.0),
-         libdart6-utils-urdf-dev (<< 6.10.0) | libdart-utils-urdf-dev (<< 6.10.0),
-         libdart6-external-odelcpsolver-dev (<< 6.10.0) | libdart-external-odelcpsolver-dev (<< 6.10.0),
-         libdart6-external-ikfast-dev (<< 6.10.0) | libdart-external-ikfast-dev (<< 6.10.0),
-         libdart6-collision-bullet-dev (<< 6.10.0) | libdart-collision-bullet-dev (<< 6.10.0),
+         libdart-dev (>= 6.12.1+dfsg4),
+         libdart-external-convhull-3d-dev (>= 6.12.1+dfsg4),
+         libdart-collision-ode-dev (>= 6.12.1+dfsg4),
+         libdart-utils-urdf-dev (>= 6.12.1+dfsg4),
+         libdart-utils-dev (>= 6.12.1+dfsg4),
+         libdart-external-odelcpsolver-dev (>= 6.12.1+dfsg4),
+         libdart-external-ikfast-dev (>= 6.12.1+dfsg4),
+         libdart-collision-bullet-dev (>= 6.12.1+dfsg4),
          libsdformat12-dev,
          libignition-physics5-dartsim (= ${binary:Version}),
          ${misc:Depends}
@@ -134,6 +140,8 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-physics5-dartsim-plugin (<= 5.8.1+ds-2)
+Replaces: libignition-physics5-dartsim-plugin (<= 5.8.1+ds-2)
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - Dartsim library
  Ignition Physics is a component in the ignition framework, a set of libraries
@@ -166,6 +174,8 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-physics5-tpe-plugin5 (<= 5.8.1+ds-2)
+Replaces: libignition-physics5-tpe-plugin5 (<= 5.8.1+ds-2)
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - TPE library
  Ignition Physics is a component in the ignition framework, a set of libraries
@@ -194,6 +204,8 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-physics5-tpelib5 (<= 5.8.1+ds-2)
+Replaces: libignition-physics5-tpelib5 (<= 5.8.1+ds-2)
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - TPE library
  Ignition Physics is a component in the ignition framework, a set of libraries
@@ -210,7 +222,8 @@ Depends: libignition-physics5-core-dev (= ${binary:Version}),
          libignition-cmake2-dev (>= 2.1.0),
          libignition-common4-graphics-dev,
          libignition-math6-dev,
-         libignition-plugin-dev (>= 1.1.0),
+         libignition-math6-eigen3-dev,
+         libignition-plugin-dev,
          libbullet-dev,
          libsdformat12-dev,
          libignition-physics5-bullet (= ${binary:Version}),
@@ -227,6 +240,8 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libignition-physics5-bullet (<= 5.8.1+ds-2)
+Replaces: libignition-physics5-bullet (<= 5.8.1+ds-2)
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - Bullet engine
  Ignition Physics is a component in the ignition framework, a set of libraries
