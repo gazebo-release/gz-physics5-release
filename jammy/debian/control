@@ -267,3 +267,115 @@ Description: Gazebo Physics classes and functions for robot apps - Metapackage
  designed to rapidly develop robot applications.
  .
  Metapackage, all development files
+
+Package: libgz-physics5-core-dev
+Depends: libignition-physics5-core-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-sdf-dev
+Depends: libignition-physics5-sdf-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-mesh-dev
+Depends: libignition-physics5-mesh-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-heightmap-dev
+Depends: libignition-physics5-heightmap-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5
+Depends: libignition-physics5 (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-dartsim-dev
+Depends: libignition-physics5-dartsim-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-dartsim
+Depends: libignition-physics5-dartsim (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-tpe-dev
+Depends: libignition-physics5-tpe-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-tpe
+Depends: libignition-physics5-tpe (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-tpelib-dev
+Depends: libignition-physics5-tpelib-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-tpelib
+Depends: libignition-physics5-tpelib (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-bullet-dev
+Depends: libignition-physics5-bullet-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-bullet
+Depends: libignition-physics5-bullet (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-physics5-dev
+Depends: libignition-physics5-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
