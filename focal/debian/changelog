@@ -1,3 +1,9 @@
+ignition-physics5 (5.3.0-1~focal) focal; urgency=medium
+
+  * ignition-physics5 5.3.0-1 release
+
+ -- Michael Carroll <michael@openrobotics.org>  Mon, 23 Jan 2023 11:09:17 -0600
+
 ignition-physics5 (5.2.0-2~focal) focal; urgency=medium
 
   * ignition-physics5 5.2.0-2 release
