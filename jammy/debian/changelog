@@ -1,3 +1,9 @@
+ignition-physics5 (5.3.1-1~jammy) jammy; urgency=medium
+
+  * ignition-physics5 5.3.1-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 16 Feb 2023 23:23:28 +0000
+
 ignition-physics5 (5.3.0-1~jammy) jammy; urgency=medium
 
   * ignition-physics5 5.3.0-1 release
