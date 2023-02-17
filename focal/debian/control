@@ -38,10 +38,10 @@ Depends: libignition-cmake2-dev (>= 2.1.0),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - Development files
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Core component, development files
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Core component, development files
 
 Package: libignition-physics5-sdf-dev
 Architecture: any
@@ -53,10 +53,10 @@ Depends: libignition-physics5-core-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - SDF Dev files
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  SDF component, development files
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ SDF component, development files
 
 Package: libignition-physics5-mesh-dev
 Architecture: any
@@ -68,10 +68,10 @@ Depends: libignition-physics5-core-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - Mesh Dev files
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Mesh component, development files
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Mesh component, development files
 
 Package: libignition-physics5-heightmap-dev
 Architecture: any
@@ -83,10 +83,10 @@ Depends: libignition-physics5-core-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - Heightmap Dev files
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Heightmap component, development files
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Heightmap component, development files
 
 Package: libignition-physics5
 Architecture: any
@@ -95,10 +95,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - Shared library
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Main shared library
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications
+ .
+ Main shared library
 
 Package: libignition-physics5-dartsim-dev
 Architecture: any
@@ -126,10 +126,10 @@ Depends: libignition-physics5-core-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - Development files
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Dartsim component, development files
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Dartsim component, development files
 
 Package: libignition-physics5-dartsim
 Architecture: any
@@ -138,10 +138,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - Dartsim library
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  DARTSim component shared library
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ DARTSim component shared library
 
 Package: libignition-physics5-tpe-dev
 Architecture: any
@@ -158,10 +158,10 @@ Depends: libignition-physics5-core-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - Development files
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  TPE plugin component, development files
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ TPE plugin component, development files
 
 Package: libignition-physics5-tpe
 Architecture: any
@@ -170,10 +170,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - TPE library
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  TPE plugin component shared library
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ TPE plugin component shared library
 
 Package: libignition-physics5-tpelib-dev
 Architecture: any
@@ -186,10 +186,10 @@ Depends: libignition-cmake2-dev (>= 2.1.0),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - Development files
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  TPE library component, development files
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ TPE library component, development files
 
 Package: libignition-physics5-tpelib
 Architecture: any
@@ -198,10 +198,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - TPE library
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  TPE library component shared library
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ TPE library component shared library
 
 Package: libignition-physics5-bullet-dev
 Architecture: any
@@ -220,10 +220,10 @@ Depends: libignition-physics5-core-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - Development files
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Bullet component, development files
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Bullet component, development files
 
 Package: libignition-physics5-bullet
 Architecture: any
@@ -232,10 +232,10 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - Bullet engine
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Bullet component shared library
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Bullet component shared library
 
 Package: libignition-physics5-dev
 Architecture: any
@@ -251,14 +251,14 @@ Depends: libignition-physics5-core-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Physics classes and functions for robot apps - Metapackage
-  Gazebo Physics is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Metapackage, all development files
+ Gazebo Physics is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Metapackage, all development files
 
 Package: libgz-physics5-core-dev
 Depends: libignition-physics5-core-dev (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -266,7 +266,7 @@ Description: transitional package
 
 Package: libgz-physics5-sdf-dev
 Depends: libignition-physics5-sdf-dev (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -274,7 +274,7 @@ Description: transitional package
 
 Package: libgz-physics5-mesh-dev
 Depends: libignition-physics5-mesh-dev (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -282,7 +282,7 @@ Description: transitional package
 
 Package: libgz-physics5-heightmap-dev
 Depends: libignition-physics5-heightmap-dev (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -290,7 +290,7 @@ Description: transitional package
 
 Package: libgz-physics5
 Depends: libignition-physics5 (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -298,7 +298,7 @@ Description: transitional package
 
 Package: libgz-physics5-dartsim-dev
 Depends: libignition-physics5-dartsim-dev (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -306,7 +306,7 @@ Description: transitional package
 
 Package: libgz-physics5-dartsim
 Depends: libignition-physics5-dartsim (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -314,7 +314,7 @@ Description: transitional package
 
 Package: libgz-physics5-tpe-dev
 Depends: libignition-physics5-tpe-dev (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -322,7 +322,7 @@ Description: transitional package
 
 Package: libgz-physics5-tpe
 Depends: libignition-physics5-tpe (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -330,7 +330,7 @@ Description: transitional package
 
 Package: libgz-physics5-tpelib-dev
 Depends: libignition-physics5-tpelib-dev (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -338,7 +338,7 @@ Description: transitional package
 
 Package: libgz-physics5-tpelib
 Depends: libignition-physics5-tpelib (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -346,7 +346,7 @@ Description: transitional package
 
 Package: libgz-physics5-bullet-dev
 Depends: libignition-physics5-bullet-dev (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -354,7 +354,7 @@ Description: transitional package
 
 Package: libgz-physics5-bullet
 Depends: libignition-physics5-bullet (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
@@ -362,7 +362,7 @@ Description: transitional package
 
 Package: libgz-physics5-dev
 Depends: libignition-physics5-dev (= ${binary:Version}), ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: optional
 Section: oldlibs
 Description: transitional package
