@@ -1,3 +1,9 @@
+ignition-physics5 (5.4.0-1~focal) focal; urgency=medium
+
+  * ignition-physics5 5.4.0-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 29 Jan 2026 18:01:45 +0000
+
 ignition-physics5 (5.3.2-1~focal) focal; urgency=medium
 
   * ignition-physics5 5.3.2-1 release
