@@ -1,3 +1,9 @@
+ignition-physics5 (5.4.1-1~jammy) jammy; urgency=medium
+
+  * ignition-physics5 5.4.1-1 release
+
+ -- Carlos Agüero <caguero@honurobotics.com>  Thu, 29 Oct 2026 13:36:38 +0000
+
 ignition-physics5 (5.4.0-1~jammy) jammy; urgency=medium
 
   * ignition-physics5 5.4.0-1 release
